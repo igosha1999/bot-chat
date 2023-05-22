@@ -24,7 +24,7 @@ class Openai {
             })
             return response.data.choices[0].message
         } catch (error) {
-            console.log(`Error while chat message`, error.message);
+            console.log(`Error while chat message1`, error.message);
         }
     }
 
